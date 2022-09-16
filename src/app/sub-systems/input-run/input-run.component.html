@@ -1,0 +1,14 @@
+<div id="all">
+    <h1>Distance Run:</h1>
+    <mat-slider
+     thumbLabel
+    (change)="updateSetting($event)"
+    [displayWith]="formatLabel"
+    tickInterval="1000"
+  step="1"
+  min="0"
+  max="50"
+  aria-label="units" [value]="gridsize"></mat-slider>
+  <p>{{this.gridsize}}</p>
+  <button (click)="insertRun()">Submit</button>
+</div>

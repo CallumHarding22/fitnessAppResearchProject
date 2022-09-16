@@ -1,0 +1,60 @@
+$greenColour: #A7FF2D;
+$backgroundGrey: #212121;
+
+::ng-deep .custom-modalbox {
+    mat-dialog-container {
+        padding: 2em;
+        background-color: $backgroundGrey;
+        border-radius: 5em;
+        color: #A7FF2D;
+    }
+}
+
+h1{
+   color: #A7FF2D;
+
+}
+
+#all{
+    padding-left: 5%;
+}
+
+h2{
+   color: #c2c2c2; 
+   display: inline-block;
+}
+
+h3{
+    color:#c2c2c2
+}
+
+.mat-icon{
+    display: inline-block;
+    padding-left:1em;
+}
+
+#week1,#week2,#week3,#week4{
+    white-space: nowrap;
+}
+
+#profile{
+    margin-left: 5%;
+}
+
+img{
+    text-align: center;
+}
+
+.items{
+    display: inline-block;
+    margin-left: 1em;
+}
+
+#items{
+    white-space: nowrap;
+}
+
+#items > h3{
+    display: inline-block;
+}
+

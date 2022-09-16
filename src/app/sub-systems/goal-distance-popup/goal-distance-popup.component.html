@@ -1,0 +1,11 @@
+<h1 mat-dialog-title>Introduction</h1>
+<div mat-dialog-content id="popup">
+  <p>"Greetings hero, in your adventure you will be fighting against a terrible enemy, Morgoth the Dreadful. As you run in the real world you will be able to collect items which will make your endevour to defeat this beast easier. For each pair of weekly goal reached you shall get one of these items. Good luck Hero!"</p>
+  <img src="assets/images/boy.png">
+  <form [formGroup]="prefForm" (ngSubmit)="submitPreferences()">
+    <label>Goal Distance for the four weeks(km):</label>
+    <input type="text" class="form-control" formControlName="goalDistance">
+    <br />
+    <input type="submit" value="Submit" />
+  </form>
+</div>
